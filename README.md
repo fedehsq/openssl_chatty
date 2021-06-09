@@ -6,7 +6,9 @@ Every communication between peers is encrypted using OpenSSL API.
 For more details, visit [instructions](https://github.com/fedehsq/OpenSSL_chatty/blob/main/mandatory.pdf) and [report](https://github.com/fedehsq/OpenSSL_chatty/blob/main/report.pdf)
 
 ## How it works
-There are 3 users registered to the server.
+When a client correctly connects to the server, the server will shows online users to this client, then the client can requests a chat session with some other client.
+This client will be wait for the peer response.
+As for now there are 3 users registered to the server.
 If you want create your own customers, you should generate a pair of 2048-bit RSA keys and the private key must be protected by password.
 The server has a public certificate that is granted to be safe by the CA SimpleAuthority.
 
