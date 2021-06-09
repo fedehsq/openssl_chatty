@@ -1,6 +1,8 @@
 # openSSL chatty
 ## Description
-A multithread client-server chat application. Every communication between peers is encrypted using OpenSSL API.
+A multithread client-server chat application. 
+Every communication between peers is encrypted using OpenSSL API.
+
 For more details, visit [instructions](https://github.com/fedehsq/OpenSSL_chatty/blob/main/mandatory.pdf) and [report](https://github.com/fedehsq/OpenSSL_chatty/blob/main/report.pdf)
 
 ## How it works
