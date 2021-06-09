@@ -1,4 +1,4 @@
-# openSSL chatty
+# OpenSSL chatty
 ## Description
 A multithread client-server chat application. 
 Every communication between peers is encrypted using OpenSSL API.
